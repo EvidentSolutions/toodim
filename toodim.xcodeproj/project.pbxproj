@@ -43,6 +43,7 @@
 		C7CC49A9249763B600B0ED74 /* Promoted.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC49A8249763B600B0ED74 /* Promoted.swift */; };
 		C7CC49AD249CA66500B0ED74 /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC49AC249CA66500B0ED74 /* MoveGenerator.swift */; };
 		C7EC73DD24A24E8000EAA039 /* SquareVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC73DC24A24E8000EAA039 /* SquareVM.swift */; };
+		C7FB92DD24AA0B5100483E48 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C7FB92DC24AA0B5100483E48 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		C7CC49A8249763B600B0ED74 /* Promoted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promoted.swift; sourceTree = "<group>"; };
 		C7CC49AC249CA66500B0ED74 /* MoveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveGenerator.swift; sourceTree = "<group>"; };
 		C7EC73DC24A24E8000EAA039 /* SquareVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareVM.swift; sourceTree = "<group>"; };
+		C7FB92DC24AA0B5100483E48 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		C7A9F4A524917C9C00D0CFA3 = {
 			isa = PBXGroup;
 			children = (
+				C7FB92DC24AA0B5100483E48 /* LICENSE */,
 				C794744B24A3DA3500F8FD04 /* README.md */,
 				C7A9F4E12492234C00D0CFA3 /* TODO.md */,
 				C794744F24A74A1900F8FD04 /* app.png */,
@@ -366,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FB92DD24AA0B5100483E48 /* LICENSE in Resources */,
 				C7A9F4BE24917C9D00D0CFA3 /* LaunchScreen.storyboard in Resources */,
 				C7A9F4BB24917C9D00D0CFA3 /* Preview Assets.xcassets in Resources */,
 				C794745024A74A1900F8FD04 /* app.png in Resources */,
