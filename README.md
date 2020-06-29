@@ -5,7 +5,7 @@ Play a shogi game on the couch with a friend using an iOS device.
 ![Shogi app](app.png?raw=true "Shogi app")
 
 
-Traditional kanji markings on the game pieces are replaced with figures that not only identify the pieces, but also shows directions to give a clue what moves are potentially available.
+Traditional kanji markings on the game pieces are replaced with figures that not only identify the pieces, but also tells which direction and how far the pieces can potentially move to.
 The visuals hopefully help beginner players to grok the game mechanics quickly.
 The design was inspired by Douglas Crockford's shogi page.
 
