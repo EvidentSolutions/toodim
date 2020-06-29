@@ -26,14 +26,14 @@ If no square becomes highlighted, that piece does not have any legal moves. Sele
 ### Capturing and using captured pieces:
 - If you move your piece to a square that has opponent's piece, that piece is captured as an unpromoted piece.
 - Starting from your next turn, you may choose any captured piece, and drop it to the board. 
-- A pawn cannot be dropped to a square if the column where that square is has already an unpromoted pawn of yours in it. 
-- Other  piece specific rules about dropping are omitted here but not in the app. 
+- A pawn cannot be dropped to a square, if the column where that square is has already an unpromoted pawn of yours in it. 
+- Other  piece specific rules about dropping are omitted here, but not in the app. 
 
 ### Promotion:
 - Promotion means to change your piece's moving capabilities. Once promoted it cannot be undone until captured.
-- Promotion can happen only at the side nearest to your opponent. Making a move in the three last rows of board activates promotion (but not dropping). 
-- If you move your piece so that it actives promotion, the piece visually shows it. Double tap to promote before your opponent makes their move.
-- You don't need to promote if you choose so. If you choose so, you can promote later if you first make a move in the promotion area.
+- Promotion can happen only at the side nearest to your opponent. Moving a piece in the three last rows of board activates promotion. (Dropping a piece doesn't activate promotion.) 
+- If you move your piece so that it actives promotion, it's expressed visually. Either double tap to promote, or let your opponent make their move.
+- You don't need to promote if you choose so. If you do, you can promote later if you first make a move in the promotion area.
 - Automatic promotion is made when the piece wouldn't even theoretically have any legal moves.
 
 
