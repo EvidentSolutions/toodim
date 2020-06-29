@@ -5,8 +5,8 @@ Play a shogi game on the couch with a friend using an iOS device.
 ![Shogi app](app.png?raw=true "Shogi app")
 
 
-Traditional kanji markings on the game pieces are replaced with figures that indicate not only identify the piece, but also shows directions to give a clue what moves are potentially available.
-The visuals hopefully help western players to grok the game mechanics faster than with traditional pieces.
+Traditional kanji markings on the game pieces are replaced with figures that not only identify the pieces, but also shows directions to give a clue what moves are potentially available.
+The visuals hopefully help beginner players to grok the game mechanics quickly.
 The design was inspired by Douglas Crockford's shogi page.
 
 The app enforces all shogi rules except a couple of game ending rules (repetition, impasse, illegal move, resignation). 
