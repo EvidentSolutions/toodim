@@ -10,15 +10,9 @@ missing end game rules:
 - impasse
 
 cool to have:
-- show last move (as somewhat transparent arrow from earlier place to new place) 
 - show pieces that can move?
-- show helpful text when piece has no moves? 
 - better animation
 - stronger border for promotion area?
 - knight move as 3d-arc to show that jumping over is fine?
 - same kind of captured pieces not wasting space so much with duplicate pieces?
   - maybe in some deterministic order
-
-possibly refactoring:
-- showable pieces from view model?
-

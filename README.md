@@ -12,7 +12,7 @@ The design was inspired by Douglas Crockford's shogi page.
 The app enforces all shogi rules except a couple of game ending rules (repetition, impasse, illegal move, resignation). 
 Please let me know if rules do not work as expected.
 
-# How to play
+## How to play
 
 Select a piece by tapping on it. Squares become highlighted to indicate where you can move the selected piece. 
 Tap on one of the highlighted square and the selected piece will move there. After that it is your opponent's turn.

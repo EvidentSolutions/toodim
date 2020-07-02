@@ -18,8 +18,6 @@ class GameVM : ObservableObject {
         self.game = game
     }
     
-    // MARK: Intention
-    
     var player1: PlayerVM {
         createPlayer(player: .sente)
     }
