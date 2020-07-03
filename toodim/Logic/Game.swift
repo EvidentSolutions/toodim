@@ -67,10 +67,6 @@ struct Game {
         }
     }
     
-    func isWithinBoard(position: Position) -> Bool {
-        Game.boardRange.contains(position.row) && Game.boardRange.contains(position.column)
-    }
-    
     func isPromotionPossible(player: PlayerType) -> Bool {
         piecesOnBoard.contains { $0.owner == player && $0.isPromotable}
     }
