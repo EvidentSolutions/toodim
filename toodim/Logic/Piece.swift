@@ -24,8 +24,8 @@ struct Piece: Equatable, Positionable, Identifiable, Hashable {
     var lastPieceMoved = false
 
     init(owner: PlayerType, type: PieceType, row: Int, column: Int) {
-        assert((1...9).contains(row))
-        assert((1...9).contains(column))
+        assert((1...Game.boardSize).contains(row))
+        assert((1...Game.boardSize).contains(column))
         self.type = type
         self.owner = owner
         self.isPromoted = false
