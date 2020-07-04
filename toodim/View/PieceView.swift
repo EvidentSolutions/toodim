@@ -28,7 +28,8 @@ struct PieceView : View {
                     .highlight(self.piece.selected)
                     .transition(.slide)
                     .animation(.linear(duration: 0.4))
-            }.foregroundColor(Color.black)
+            }
+                .foregroundColor(Color.black)
         }
     }
     

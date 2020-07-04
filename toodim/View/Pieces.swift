@@ -10,34 +10,25 @@ import SwiftUI
 
 struct Pieces {
     
+    typealias PromotedPawn = PromotedToGold
+    typealias PromotedLance = PromotedToGold
+    typealias PromotedSilver = PromotedToGold
+    typealias PromotedKnight = PromotedToGold
+
     struct Pawn : View {
         var thin = false
         var body: some View {
             Arrow(addHead: false, thin: thin)
         }
     }
-    
-    struct PromotedPawn : View {
         
-        var body: some View {
-            PromotedToGold()
-        }
-    }
-    
     struct Lance: View {
         var thin = false
         var body: some View {
             Arrow(addHead: true, thin: thin)
         }
     }
-    
-    struct PromotedLance: View {
-        var body: some View {
-            PromotedToGold()
-        }
-    }
-    
-    
+        
     struct King : View {
         var body: some View {
             makeArrows(arrows: 8)
@@ -121,15 +112,7 @@ struct Pieces {
             }
         }
     }
-    
-    struct PromotedSilver : View {
-        var body : some View {
-            ZStack {
-                PromotedToGold()
-            }
-        }
-    }
-    
+        
     struct Knight : View {
         var thin = false
         var body : some View {
@@ -143,10 +126,5 @@ struct Pieces {
         }
     }
     
-    struct PromotedKnight : View {
-        var body : some View {
-            PromotedToGold()
-        }
-    }
 }
 
