@@ -14,13 +14,8 @@ struct Game {
     static var promotingRows = (boardSize-2)...boardSize
     static var boardPositions = Game.boardRange.flatMap { column in Game.boardRange.map { row in Position(column: column, row: row) } }
     
-    var turn: PlayerType
-    var pieces: [Piece]
-    
-    init() {
-        turn = PlayerType.sente
-        pieces = setupDefaultPosition()
-    }
+    var turn = PlayerType.sente
+    var pieces = setupDefaultPosition()
     
     var winner: PlayerType? {
         PlayerType.allCases.first {

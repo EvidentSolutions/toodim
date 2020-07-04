@@ -11,11 +11,11 @@ import SwiftUI
 struct Humanify : ViewModifier {
     var amount: Double = 10
     func body(content: Content) -> some View {
-        content.rotationEffect(.degrees((.pi/2) * self.amount * randome()))
+        content.rotationEffect(.degrees((.pi/2) * self.amount * someRandomValue()))
     }
 }
 
-func randome() -> Double {
+private func someRandomValue() -> Double {
     let max = 5.0
     return Double.random(in: 1...max) - (1+max)/2
 }
