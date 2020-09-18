@@ -53,50 +53,50 @@ struct SelectPieceView : View {
 struct SelectOriginalPieceView : View {
     var pieceType: PieceType
     var thin = false
-    // TODO: because of AnyView hack, id is needed so that transitions work
+    // TODO: id is needed so that transitions
     var body: some View {
         switch self.pieceType {
         case .Bishop:
-            return AnyView(Pieces.Bishop(thin: thin)).id("Bishop")
+            Pieces.Bishop(thin: thin).id("Bishop")
         case .Gold:
-            return AnyView(Pieces.Gold()).id("Gold")
+            Pieces.Gold().id("Gold")
         case .Silver:
-            return AnyView(Pieces.Silver(thin: thin)).id("Silver")
+            Pieces.Silver(thin: thin).id("Silver")
         case .King:
-            return AnyView(Pieces.King()).id("King")
+            Pieces.King().id("King")
         case .Lance:
-            return AnyView(Pieces.Lance(thin: thin)).id("Lance")
+            Pieces.Lance(thin: thin).id("Lance")
         case .Rook:
-            return AnyView(Pieces.Rook(thin: thin)).id("Rook")
+            Pieces.Rook(thin: thin).id("Rook")
         case .Pawn:
-            return AnyView(Pieces.Pawn(thin: thin)).id("Pawn")
+            Pieces.Pawn(thin: thin).id("Pawn")
         case .Knight:
-            return AnyView(Pieces.Knight(thin: thin)).id("Knight")
+            Pieces.Knight(thin: thin).id("Knight")
         }
     }
 }
 
 struct SelectPromotedPieceView : View {
     var pieceType: PieceType
-    // TODO: because of AnyView hack, id is needed so that transitions work
+    // TODO: id is needed so that transitions work
     var body: some View {
         switch self.pieceType {
         case .Bishop:
-            return AnyView(Pieces.DragonHorse()).id("DragonHorse")
+            Pieces.DragonHorse().id("DragonHorse")
         case .Gold:
-            return AnyView(Pieces.Gold()).id("Gold")
+            Pieces.Gold().id("Gold")
         case .Silver:
-            return AnyView(Pieces.PromotedSilver()).id("PromotedSilver")
+            Pieces.PromotedSilver().id("PromotedSilver")
         case .King:
-            return AnyView(Pieces.King()).id("King")
+            Pieces.King().id("King")
         case .Lance:
-            return AnyView(Pieces.PromotedLance()).id("PromotedLance")
+            Pieces.PromotedLance().id("PromotedLance")
         case .Rook:
-            return AnyView(Pieces.DragonKing()).id("DragonKing")
+            Pieces.DragonKing().id("DragonKing")
         case .Pawn:
-            return AnyView(Pieces.PromotedPawn()).id("PromotedPawn")
+            Pieces.PromotedPawn().id("PromotedPawn")
         case .Knight:
-            return AnyView(Pieces.PromotedKnight()).id("PromotedKnight")
+            Pieces.PromotedKnight().id("PromotedKnight")
         }
     }
 }
