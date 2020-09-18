@@ -9,6 +9,9 @@ missing end game rules:
 - repetition for draw
 - impasse
 
+possible problems:
+- layout clips board content weirdly if user instruction content gets too long ("promote by ...")
+
 cool to have:
 - show pieces that can move?
 - better animation
