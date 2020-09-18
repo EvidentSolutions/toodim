@@ -25,7 +25,7 @@ struct PlayerVM {
                     "No available moves. Select another piece."
                 } ?? "Select a piece to move."
             ) :
-            isPromotionPossible ? "Promote by double tap, or wait for opponent's move" :
+            isPromotionPossible ? "Promote by double tap, or wait for opponent" :
         "Wait for your turn"
     }
         
